@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+	<title>Web Studio</title>
+</head>
+
+<body class="body-portfolio">
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<a href="./index.html" class="brand__logo link">
+				Web<span style="color: rgb(3, 3, 3);">Studio</span>
+			</a>
+			<!-- Navigation -->
+			<nav class="navigation">
+				<ul class="navigation__list list">
+					<li class="navigation__list-item">
+						<a class="navigation__list-link link" href="./index.html">Студия</a>
+					</li>
+					<li class="navigation__list-item">
+						<a class="navigation__list-link link" style="color: #2196f3" href="./portfolio.html">Портфолио</a>
+					</li>
+					<li class="navigation__list-item">
+						<a class="navigation__list-link link" href="#Контакты">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Address -->
+			<address class="address">
+				<a href="mailto:info@devstudio.com" class="header__mail link">
+					<svg class="header__mail-logo">
+						<use href="./img/sprite.svg#icon-mail"></use>
+					</svg>
+						info@devstudio.com
+				</a>
+				<a href="tel:+380961111111" class="header__tel link">
+					<svg class="header__tel-logo">
+						<use href="./img/sprite.svg#icon-smartphone"></use>
+					</svg>
+						+38 096 111 11 11
+				</a>
+			</address>
+		</div>
+	</header>
+	<!-- Main Portfolio -->
+	<main>
+		<section class="portfolio section">
+			<!-- Filters -->
+			<div class="container">
+				<h2 hidden class="filters__title">Проекты</h2>
+				<ul class="filters__title-item list">
+					<li class="filters__title-list">
+						<button class="filters__modal-btn" type="button">Все</button>
+					</li>
+					<li>
+						<button class="filters__modal-btn" type="button">Веб-сайты</button>
+					</li>
+					<li>
+						<button class="filters__modal-btn" type="button">Приложения</button>
+					</li>
+					<li>
+						<button class="filters__modal-btn" type="button">Дизайн</button>
+					</li>
+					<li>
+						<button class="filters__modal-btn" type="button">Маркетинг</button>
+					</li>
+				</ul>
+			</div>
+			<!-- Projects -->
+			<div class="container">
+				<h2 hidden class="title">Проекты</h2>
+				<ul class="projects__item list">
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/technokryak.png" alt="Технокряк" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Технокряк</h3>
+								<p class="description">Веб-сайт</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/new-orlean-vs-golden-star-poster.png" alt="Постер New Orlean vs Golden Star" width="370"
+							height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Постер New Orlean vs Golden Star</h3>
+								<p class="description">Дизайн</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/seafood-restaurant.png" alt="Ресторан Seafood" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Ресторан Seafood</h3>
+								<p class="description">Приложение</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/prime-project.png" alt="Проект Prime" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Проект Prime</h3>
+								<p class="description">Маркетинг</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/boxes-project.png" alt="Проект Boxes" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Проект Boxes</h3>
+								<p class="description">Приложение</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/inspiration-has-no-borders.png" alt="Inspiration has no Borders" width="370"
+							height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Inspiration has no Borders</h3>
+								<p class="description">Веб-сайт</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/limited-edition.png" alt="Издание Limited Edition" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Издание Limited Edition</h3>
+								<p class="description">Дизайн</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/lab-project.png" alt="Проект LAB" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Проект LAB</h3>
+								<p class="description">Маркетинг</p>
+							</div>
+						</a>
+					</li>
+					<li class="projects__item-list">
+						<a class="projects__item-list__link link" href="#">
+							<img class="projects__item-img" src="./img/projects/growing-business.png" alt="Growing Business" width="370" height="294" />
+							<div class="projects__item-content-wrapper">
+								<h3 class="subtitle">Growing Business</h3>
+								<p class="description">Приложение</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row-left">
+				<a href="./index.html" class="brand__logo link">
+				Web<span style="color: rgb(255, 255, 255);">Studio</span>
+				</a>
+				<address class="address">
+					<ul class="contact-list list">
+						<li class="contact-list__item list">
+							<p class="contact-list__description">г. Киев, пр-т Леси Украинки, 26</p>
+						</li>
+						<li class="contact-list__item list">
+							<a class="footer-mail__link link" href="mailto:info@example.com">info@example.com</a>
+						</li>
+						<li class="contact-list__item list">
+							<a class="footer-tel__link link" href="tel:+380991111111">+38 099 111 11 11</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+			<div class="row-right">
+				<p class="description">присоединяйтесь</p>
+				<ul class="social-list list">
+					<li class="social-list__item">
+						<a class="social-list__link" href="https://www.instagram.com/">
+							<svg class="social-list__icon">
+								<use href="./img/sprite.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social-list__item">
+						<a class="social-list__link" href="https://twitter.com/">
+							<svg class="social-list__icon">
+								<use href="./img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social-list__item">
+						<a class="social-list__link" href="https://www.facebook.com/">
+							<svg class="social-list__icon">
+								<use href="./img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="social-list__item">
+						<a class="social-list__link" href="https://www.linkedin.com/">
+							<svg class="social-list__icon">
+								<use href="./img/sprite.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
