@@ -19,11 +19,12 @@
 			<a href="./index.html" class="brand__logo link">
 				Web<span style="color: rgb(3, 3, 3);">Studio</span>
 			</a>
+
 			<!-- Navigation -->
 			<nav class="navigation">
 				<ul class="navigation__list list">
 					<li class="navigation__list-item">
-						<a class="navigation__list-link link" style="color: #2196f3" href="./index.html">Студия</a>
+						<a class="navigation__list-link link current" style="color: #2196f3" href="./index.html">Студия</a>
 					</li>
 					<li class="navigation__list-item">
 						<a class="navigation__list-link link" href="./portfolio.html">Портфолио</a>
@@ -33,6 +34,8 @@
 					</li>
 				</ul>
 			</nav>
+			<!-- End Navigation -->
+
 			<!-- Address -->
 			<address class="address">
 				<a href="mailto:info@devstudio.com" class="header__mail link">
@@ -112,15 +115,21 @@
 				<ul class="services__item list">
 					<li class="services__item-list">
 						<img src="./img/what-we-do/coding.png" alt="Десктопные приложения" width="370" height="294" />
-						<!-- <h3 class="section-services-subtitle">Десктопные приложения</h3> -->
+						<div class="services__item-list-cover">
+							<h3 class="section-services-subtitle">Десктопные приложения</h3>
+						</div>
 					</li>
 					<li class="services__item-list">
 						<img src="./img/what-we-do/api.png" alt="Мобильные приложения" width="370" height="294" />
-						<!-- <h3 class="section-services-subtitle">Мобильные приложения</h3> -->
+						<div class="services__item-list-cover">
+							<h3 class="section-services-subtitle">Мобильные приложения</h3>
+						</div>	
 					</li>
 					<li class="services__item-list">
 						<img src="./img/what-we-do/design.png" alt="Дизайнерские решения" width="370" height="294" />
-						<!-- <h3 class="section-services-subtitle">Дизайнерские решения</h3> -->
+						<div class="services__item-list-cover">
+							<h3 class="section-services-subtitle">Дизайнерские решения</h3>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -389,6 +398,8 @@
 					</ul>
 				</address>
 			</div>
+
+			<!--Footer Social-->
 			<div class="row-right">
 				<p class="description">присоединяйтесь</p>
 				<ul class="social-list list">
@@ -426,6 +437,20 @@
 					</li>
 				</ul>
 			</div>
+			<!--End Footer Social-->
+
+			<!--Footer Subscribe-->
+			<!--<div class="footer-subscribe">
+				<form class="footer-form js-speaker-form">
+				<p class="footer-subscribe-title">Подпишитесь на рассылку</p>
+				<div class="footer-mail-box">
+					<input class="footer-mail-input" type="email" name="mail" id="footer-mail" placeholder="E-mail" />
+					<button type="button" class="footer-mail-btn">Подписаться</button>
+				</div>
+				</form>
+			</div> -->
+			<!--End Footer Subscribe-->
+
 		</div>
 	</footer>
 	<!-- End Footer -->
@@ -440,7 +465,8 @@
 		</div>
 	</div>
 	<!-- End Backdrop -->
-	<!-- SCRIPT -->
+	<!-- Script -->
 	<script src="./js/modal.js"></script>
+	<!-- End Script -->
 </body>
 </html>
